@@ -9,3 +9,6 @@ echo fullstamp: "%fullstamp%"
 git add --all
 git commit -m "%fullstamp%"
 git push
+
+
+python3 update.py

@@ -6,7 +6,7 @@ MQTT_PORT = 1883
 MQTT_TOPIC = "update"
 
 # GitHub raw link to .bin firmware file
-FIRMWARE_URL = "https://github.com/yopoitio/Mood_Teller/raw/refs/heads/main/Placa_Ju_OTA.ino.bin"
+FIRMWARE_URL = "https://raw.githubusercontent.com/yopoitio/Mood_Teller/main/Placa_Ju_OTA.ino.bin"
 
 # Message must begin with 'u' to signal OTA update
 ota_payload = FIRMWARE_URL

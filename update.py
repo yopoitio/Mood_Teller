@@ -9,7 +9,7 @@ MQTT_TOPIC = "update"
 FIRMWARE_URL = "https://github.com/yopoitio/Mood_Teller/raw/refs/heads/main/Placa_Ju_OTA.ino.bin"
 
 # Message must begin with 'u' to signal OTA update
-ota_payload = "u" + FIRMWARE_URL
+ota_payload = FIRMWARE_URL
 
 # Setup MQTT client
 client = mqtt.Client()
